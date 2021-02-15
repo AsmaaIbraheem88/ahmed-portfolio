@@ -1,0 +1,764 @@
+* {
+
+    box-sizing: border-box;
+
+    /*    font-family: 'Kanit', sans-serif;*/
+
+}
+
+.main-color {
+
+    color: red;
+
+}
+
+.main-background {
+
+    background-color: red;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.left {
+
+    text-align: left;
+
+}
+
+/*navbar*/
+
+.navbar {
+
+    position: fixed;
+
+    width: 100%;
+
+    z-index: 990;
+
+    box-shadow: 30px 30px 30px 30px rgba(127, 127, 127, 0.1);
+
+
+}
+
+.navbar .navbar-brand {
+
+    /*    font-family: 'Oswald', sans-serif;*/
+
+    font-family: 'Kanit', sans-serif;
+
+    font-weight: 700;
+
+    color: #000;
+
+    font-size: 25px;
+
+}
+
+.navbar a {
+
+    color: black;
+
+}
+
+.navbar ul li {
+
+    margin-right: 40px;
+
+}
+
+.navbar ul li a:hover {
+
+    color: #f48b07;
+
+}
+
+.navbar .collapse {
+
+    letter-spacing: 1px;
+
+}
+
+.navbar button {
+
+    border: 2px solid #f48b07;
+
+}
+
+/*carousel*/
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 00px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.carousel-captions {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+
+    font-size: 70px;
+
+    margin-bottom: 0px;
+
+}
+
+.animated {
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
+@keyframes bounceOutRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+}
+
+.bounceOutRight {
+    animation-name: bounceOutRight;
+}
+
+.carousel-caption svg {
+
+    /*    margin: 0px;*/
+    /*    padding: 10px;*/
+
+    /*    color: rgba(255, 255, 255, 0.5);*/
+
+    color: white;
+
+    margin: 10px 5px 0px 5px;
+
+    font-weight: bold;
+
+}
+
+.carousel-caption .svg {
+
+    padding-bottom: 270px;
+
+}
+
+.carousel-caption .mouse {
+
+    color: rgba(255, 255, 255, 0.5);
+
+    padding-bottom: 20px;
+
+}
+
+carousel-item {
+
+    display: block;
+}
+
+.testimonials {
+    position: relative;
+}
+
+.testimonials .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+
+/*end carousel*/
+
+/*cards*/
+
+.cars {
+
+    padding-top: 100px;
+
+    padding-bottom: 100px;
+
+}
+
+.car-body {
+
+    padding: 20px;
+}
+
+.cars h4 {
+
+    font-weight: bold;
+
+    font-size: 30px;
+}
+
+.cars p {
+
+    font-size: 20px;
+}
+
+.car {
+
+    margin-bottom: 50px;
+
+    padding-top: 20px;
+
+}
+
+.car:hover {
+
+    box-shadow: 10px 10px 10px rgba(127, 127, 127, 0.2), -10px -10px 10px rgba(127, 127, 127, 0.2);
+
+}
+
+.car svg {
+
+    color: #f48b07;
+
+}
+
+/*end cards*/
+
+/*about*/
+
+.about {
+
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+
+}
+
+.about h1 {
+
+    color: rgba(127, 127, 127, 0.2);
+
+    font-weight: bold;
+
+    font-size: 60px;
+
+}
+
+.about p {
+
+    font-weight: bold;
+
+    font-size: 30px;
+
+    padding-bottom: 20px;
+
+}
+
+.about .progresses {
+
+    text-align: left;
+
+    /*    padding-left: 25px;*/
+
+}
+
+.about .progresses p {
+
+    color: #858585;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 18px;
+
+}
+
+.about .progress {
+
+    margin: 30px;
+
+    margin-left: 0px;
+
+    margin-top: 0px;
+
+    height: 10px;
+
+}
+
+.about .progress-bar {
+
+    background-color: #f48b07;
+
+}
+
+.about img {
+
+    width: 100%;
+
+    height: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.about h5 {
+
+    padding-bottom: 5px;
+
+
+}
+
+.about h5 span {
+
+    float: right;
+
+    padding-right: 20px;
+
+}
+
+.about button {
+
+    background-color: black;
+
+    color: white;
+
+    margin-bottom: 20px;
+
+    border-radius: 0px;
+
+    border: 0px;
+
+    padding: 15px 20px 15px 20px;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+}
+
+.about .one {
+
+    margin-right: 10px;
+
+}
+
+/*end about*/
+
+/*numbers*/
+
+.numbers {
+
+    padding: 70px;
+
+    background-color: #1e1e1e;
+
+    color: white;
+
+    font-size: 20px;
+
+    font-family: 'Kanit', sans-serif;
+
+    letter-spacing: 3px;
+
+}
+
+.numbers .span {
+
+    font-size: 30px;
+
+}
+
+.numbers svg {
+
+    color: #f48b07;
+}
+
+.numbers span {
+
+    font-size: 15px;
+
+}
+
+/*numbers*/
+
+/*works*/
+
+.works {
+
+    padding: 20px;
+
+    padding-top: 100px;
+
+    padding-bottom: 100px;
+
+}
+
+.works h2 {
+
+    font-size: 50px;
+}
+
+.works p {
+
+    font-size: 20px;
+
+    padding-bottom: 40px;
+
+}
+
+.works h1 {
+
+    font-weight: bold;
+
+    font-size: 50px;
+
+    color: rgba(127, 127, 127, 0.4);
+
+}
+
+.works h2 {
+
+    font-weight: bold;
+
+    font-size: 30px;
+
+    color: black;
+
+}
+
+.works .nav-link:hover {
+
+    color: #f48b07
+}
+
+.works .overlay {
+
+    background-color: rgba(255, 255, 255, 0.71);
+
+    display: none;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+
+}
+
+.overlay a {
+
+    text-decoration: none;
+
+}
+
+.works .letters:hover .overlay {
+
+    display: block;
+
+}
+
+.works .overlay h2 {
+
+    padding-top: 170px;
+
+    font-size: 15px;
+
+    /*    font-weight: bold;*/
+
+    letter-spacing: 2px;
+
+}
+
+.works .letters img {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.letters {
+
+    width: 100%;
+
+    height: 300px;
+
+    margin-top: 30px;
+
+}
+
+.nav a {
+
+    padding-top: 50px;
+
+    color: #858585;
+
+    padding-bottom: 70px;
+
+}
+
+/*end work*/
+
+/*read*/
+
+.read {
+
+    background-color: #f7f7f7;
+
+    padding-bottom: 50px;
+
+    padding-top: 100px;
+
+    width: 100%;
+
+}
+
+.read h1 {
+
+    color: rgba(127, 127, 127, 0.4);
+
+    font-weight: bold;
+
+    font-size: 50px;
+
+}
+
+.read h2 {
+
+    font-weight: bold;
+
+    color: black;
+
+}
+
+.read img {
+
+    /*    width: 350px;*/
+
+    height: 400px;
+
+}
+
+.read .car2 {
+
+    padding-top: 50px;
+
+}
+
+.read a button {
+
+    background-color: rgba(121, 121, 118, 0.4);
+
+    color: white;
+
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.read a button:hover {
+
+    color: white;
+
+    background-color: #f48b07;
+
+}
+
+.read .car-body {
+
+    padding-top: 20px;
+
+    padding-left: 0px;
+
+}
+
+.read .car2:hover h5 {
+
+    color: #f48b07;
+
+}
+
+/*end read*/
+
+/*hello*/
+
+.hello {
+
+    padding-top: 50px;
+
+    padding-bottom: 100px;
+
+}
+
+.hello h1 {
+
+    font-weight: bold;
+
+    color: rgba(127, 127, 127, 0.4);
+
+    font-size: 70px;
+
+}
+
+.hello h2 {
+
+    font-weight: bold;
+
+    color: black;
+
+    padding-bottom: 30px;
+
+}
+
+.hello h3 {
+
+    color: #f48b07;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+.hello p {
+
+    color: #858585;
+
+    padding-bottom: 20px;
+
+}
+
+.hello svg {
+
+    color: #858585;
+
+    margin: 10px;
+
+    margin-bottom: 50px;
+
+}
+
+.form-group input {
+
+    border: 0px;
+
+    border-bottom: 2px solid black;
+
+    border-bottom: 1px solid #dddddd;
+
+    border-radius: 0px;
+
+    margin-bottom: 20px;
+
+    letter-spacing: 1px;
+
+}
+
+.form-group input:hover {
+
+    border-color: #f48b07;
+
+}
+
+.form-group textarea:hover {
+
+    border-color: #f48b07;
+
+}
+
+.form-group textarea {
+
+    border: 0px;
+
+    border-bottom: 2px solid black;
+
+    border-bottom: 1px solid #dddddd;
+
+    border-radius: 0px;
+
+    margin-bottom: 20px;
+
+    letter-spacing: 1px;
+
+    width: 100%;
+
+}
+
+.hello .btn {
+
+    background-color: #1e1e1e;
+
+    color: white;
+
+    border: 0px;
+
+    border-radius: 0px;
+
+    padding: 15px 20px 15px 20px;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+}
+
+.hello .btn svg {
+
+    color: white;
+
+    margin: 0px;
+
+}
+
+/*end hello*/
+
+/*footer*/
+
+.footer {
+
+    font-weight: bold;
+
+    padding: 20px;
+
+    font-size: 15px;
+
+    color: white;
+
+    background-color: #f48b07;
+
+    font-family: 'Kanit', sans-serif;
+
+}
+
+/*end footer*/
