@@ -730,8 +730,7 @@
 
         <div class="container">
 
-            <h1>Read More</h1>
-
+          
             <h2>Latest Blog</h2>
 
             <div class="row">
@@ -741,10 +740,10 @@
                     <div class="car2">
                         <img src="images/06.jpg" class="card-img-top" alt="...">
                         <div class="car-body left">
-                            <h5 class="car-title">The beat sympathy staggers near a weather</h5>
+                            <h5 class="car-title">my website by bootstrap 4 </h5>
                             <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
 
-                            <a href="https://asmaaibraheem88.github.io/ahmed-bootstrap-2"><button class="btn">OPEN SITE</button></a>
+                            <a href="https://asmaaibraheem88.github.io/ahmed-bootstrap-2" target="_blank"><button class="btn">OPEN SITE</button></a>
 
                         </div>
                     </div>
@@ -756,10 +755,10 @@
                     <div class="car2">
                         <img src="images/018.jpg" class="card-img-top" alt="...">
                         <div class="car-body left">
-                            <h5 class="car-title">The beat sympathy staggers near a weather</h5>
+                            <h5 class="car-title">second website by bootstrap4</h5>
                             <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
 
-                            <a href=" https://asmaaibraheem88.github.io/ahmed-bootstrap1/"><button class="btn">OPEN SITE</button></a>
+                            <a href=" https://asmaaibraheem88.github.io/ahmed-bootstrap1/"target="_blank"><button class="btn">OPEN SITE</button></a>
 
                         </div>
                     </div>
@@ -771,10 +770,10 @@
                     <div class="car2">
                         <img src="images/023.jpg" class="card-img-top" alt="...">
                         <div class="car-body left">
-                            <h5 class="car-title">The beat sympathy staggers near a weather</h5>
+                            <h5 class="car-title">my website by html5&css3</h5>
                             <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
 
-                            <a href="https://asmaaibraheem88.github.io/Ahmed-css3/ "><button class="btn">OPEN SITE</button></a>
+                            <a href="https://asmaaibraheem88.github.io/Ahmed-css3/ " target="_blank"><button class="btn">OPEN SITE</button></a>
 
                         </div>
 
